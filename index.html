@@ -5,9 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel ="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <script src="script.js">
-    </script>
+    <header>
+        <h1>ROCK PAPER SCISSORS</h1>
+    </header>
+    <div class="scorboard">
+        <h2 id = "text">First to 5 Point Win</h2>
+
+    </div>
+    
+    <div class ='subScorboard'>
+            <div> The Player's score is: <p id="playerScore">0</p></div>
+            <div> The Computer's score is: <p id="computerScore">0</p></div>
+    </div>    
+
+    
+    <div class ='button'>
+        <button  id="rockButton"><div class="sign">✊</div></button><br>
+        <button  id="paperButton"><div class="sign">✋</div></button><br>
+        <button  id="scissorButton"><div class="sign">✌</div></button><br>
+        <div id="currentResult"></div>
+    </div>
+
+    <div class="reset">
+        <button id="resetButton"><div class="resetBtn">🔄</div>Reset</button>
+    </div>
+    
+    
+    <script  src="script.js"defer></script>
 </body>
 </html>
+

@@ -1,0 +1,75 @@
+body{
+    background: linear-gradient(
+        to right, #DE8B8B,
+        #231BD4, #9CFB5F);
+        background-size: 400% 400%;
+        animation: animate-background 1s infinite ease-in-out;
+}
+@keyframes body{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+.scorboard{
+padding: 30px 0px;
+font-size: 15px;
+display: flex;
+justify-content: center;
+
+}
+.subScorboard{
+display: flex;
+justify-content: space-around;
+font-weight: bolder;
+}
+.button{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+}
+.reset{
+
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 30px;
+padding-left: 0px;
+flex-direction: column;
+gap: 40px;
+    
+}
+.sign{
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+}
+.resetBtn{
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+    margin-bottom: 10px;
+
+}
+#playerScore, #computerScore{
+    display: flex;
+    justify-content: center;
+}
+button {
+	background-color: rgba(255,255,255,0);
+    border:#945EC2 ;
+}
